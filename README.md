@@ -32,37 +32,24 @@ It was created as a practice project to understand the inner workings of Spring 
 
 ```
 .
-├── HELP.md
-├── mvnw
-├── mvnw.cmd
 ├── pom.xml
+├── mvnw / mvnw.cmd
 ├── project-structure.txt
-└── src
-    ├── main
-    │   ├── java
-    │   │   └── com
-    │   │       └── example
-    │   │           └── todoapp
-    │   │               ├── Controller
-    │   │               │   └── TaskController.java
-    │   │               ├── models
-    │   │               │   └── Task.java
-    │   │               ├── repository
-    │   │               │   └── TaskRepo.java
-    │   │               ├── Service
-    │   │               │   └── TaskService.java
-    │   │               └── TodoappApplication.java
-    │   └── resources
-    │       ├── application.properties
-    │       ├── static
-    │       └── templates
-    │           └── tasks.html
-    └── test
-        └── java
-            └── com
-                └── example
-                    └── todoapp
-                        └── TodoappApplicationTests.java
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/todoapp/
+│   │   │   ├── Controller/TaskController.java
+│   │   │   ├── models/Task.java
+│   │   │   ├── repository/TaskRepo.java
+│   │   │   ├── Service/TaskService.java
+│   │   │   └── TodoappApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── static/
+│   │       └── templates/tasks.html
+│   └── test/java/com/example/todoapp/
+│       └── TodoappApplicationTests.java
+
 ```
 
 ---
