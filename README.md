@@ -28,6 +28,9 @@ It was created as a practice project to understand the inner workings of Spring 
 
 ---
 
+## 📁 Project Structure
+
+```
 .
 ├── HELP.md
 ├── mvnw
@@ -60,6 +63,7 @@ It was created as a practice project to understand the inner workings of Spring 
                 └── example
                     └── todoapp
                         └── TodoappApplicationTests.java
+```
 
 ---
 
@@ -95,7 +99,7 @@ CREATE DATABASE todo_app;
    cd todoapp-springboot
    ```
 
-2. **Configure `application.properties`** for your MySQL credentials
+2. \*\*Configure \*\*\`\` for your MySQL credentials
 
 3. **Build and run the application**
 
@@ -132,6 +136,17 @@ This project helps you understand:
 * Use H2 for test profiles and MySQL for production
 * Add task deadline and sort by priority
 
+---
+
+## 📸 Screenshots
+
+### Empty State:
+
+<img src="screenshots/screenshot-empty.png" alt="Empty Todo App Screenshot" width="700"/>
+
+### Tasks Added:
+
+<img src="screenshots/screenshot-filled.png" alt="Todo App With Tasks" width="700"/>
 
 ---
 
