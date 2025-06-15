@@ -1,0 +1,34 @@
+.
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── project-structure.txt
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       └── example
+    │   │           └── todoapp
+    │   │               ├── Controller
+    │   │               │   └── TaskController.java
+    │   │               ├── models
+    │   │               │   └── Task.java
+    │   │               ├── repository
+    │   │               │   └── TaskRepo.java
+    │   │               ├── Service
+    │   │               │   └── TaskService.java
+    │   │               └── TodoappApplication.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── static
+    │       └── templates
+    │           └── tasks.html
+    └── test
+        └── java
+            └── com
+                └── example
+                    └── todoapp
+                        └── TodoappApplicationTests.java
+
+19 directories, 13 files
